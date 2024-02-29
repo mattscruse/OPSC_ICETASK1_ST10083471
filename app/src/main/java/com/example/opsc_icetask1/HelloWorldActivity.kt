@@ -26,22 +26,23 @@ class HelloWorldActivity :AppCompatActivity() {
 
             btnSpanish.setOnClickListener {
                 // Change language to Spanish
-                "Hello World!".also { textviewHelloworld.text = it }
+                "Hola Mundo!".also { textviewHelloworld.text = it }
             }
 
             btnFrench.setOnClickListener {
                 // Change language to French
-                // Replace this with your logic
+                "Bonjour le monde!".also { textviewHelloworld.text = it }
             }
 
             btnGerman.setOnClickListener {
                 // Change language to German
-                // Replace this with your logic
+                        "Hallo Welt!".also { textviewHelloworld.text = it }
+
             }
 
             btnJapanese.setOnClickListener {
                 // Change language to Japanese
-                // Replace this with your logic
+                "こんにちは世界!".also { textviewHelloworld.text = it }
             }
         }
     }
