@@ -1,15 +1,17 @@
 package com.example.opsc_icetask1
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class HelloWorldActivity :AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hello_world)
-
 
         val btnEnglish: Button = findViewById(R.id.btnEnglish)
         val btnSpanish: Button = findViewById(R.id.btnSpanish)
