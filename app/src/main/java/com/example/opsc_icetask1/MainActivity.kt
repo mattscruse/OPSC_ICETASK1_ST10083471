@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         val btnNavigateToHelloWorld: Button = findViewById(R.id.btnNavigateToHelloWorld)
+
+        //Setting on click listener for the first button on splash screen
         btnNavigateToHelloWorld.setOnClickListener {
             val intent = Intent(this, HelloWorldActivity::class.java)
             startActivity(intent)
